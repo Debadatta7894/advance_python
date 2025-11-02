@@ -36,5 +36,4 @@
 # def simple_int(p,t,r):
 #     res = p*t*r/100
 #     return res
-# print(simple_int(10,20,30))
-    
+# print(simple_int(10,20,30))   
