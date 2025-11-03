@@ -57,23 +57,23 @@
 
 
 
-def decore(func):
-    def odd():
-        print("Odd numbers:")
-        for i in range(1, 21):
-            if i % 2 != 0:
-                print(i, end=", ")
-        print("\nEven numbers:")
-        func()  
-    return odd 
+# def decore(func):
+#     def odd():
+#         print("Odd numbers:")
+#         for i in range(1, 21):
+#             if i % 2 != 0:
+#                 print(i, end=", ")
+#         print("\nEven numbers:")
+#         func()  
+#     return odd 
 
-@decore
-def check_num():
-    for i in range(1, 21):
-        if i % 2 == 0:
-            print(i, end=", ")
+# @decore
+# def check_num():
+#     for i in range(1, 21):
+#         if i % 2 == 0:
+#             print(i, end=", ")
 
-check_num()
+# check_num()
 
 
 
